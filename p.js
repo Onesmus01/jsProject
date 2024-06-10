@@ -1,5 +1,5 @@
 
-/*
+
 const storeNumber = 3.87;
 
 const goods = [
@@ -40,14 +40,14 @@ let func = () => {
     }
   })
 }
-  //nonst sodaIndex = goods.findIndex(item => item.text==='soda');
+  nonst sodaIndex = goods.findIndex(item => item.text==='soda');
   console.log(func());
-  /*const butterIndex = goods.findIndex( item => item.text ==='Butter');
+  const butterIndex = goods.findIndex( item => item.text ==='Butter');
   console.log('Butter');*/
 
 
 
-/*let list =[
+let list =[
     
         {text:'milk',cost: 60},
         {text:'eggs',cost: 30},
@@ -71,9 +71,9 @@ list.forEach((item) => {
       console.log('Price of bacon is',item.cost);
     }
 });
-//console.log(list.indexOf('bread'));
-//const butterIndex = list.indexOf('butter');
-//console.log(butterIndex);
+console.log(list.indexOf('bread'));
+const butterIndex = list.indexOf('butter');
+console.log(butterIndex);
 
 const copy = [...list];
 
@@ -88,7 +88,7 @@ console.log(stock());
 */
 
 
-/*
+
 console.log(list.indexOf('sausage'));
 //console.log(list.findIndex((item) => {item.text = 'bread';}))
 console.log(list.findIndex((item) =>{return item.text ==='bread';}));
@@ -97,7 +97,7 @@ console.log(list.indexOf('butter'));
 console.log(list.find((item)=> item.cost=== 3));
 console.log(list.findIndex((item) => {return item.text === 'bread'}));
 
-/*
+
 let html = '';
 let total = 0;
 let i =0;
@@ -108,26 +108,25 @@ list.sort((a,b) => {
     if(a.cost < b.cost)return 1;
     return -1;
 })
+while(item){
+    if(item.need){
+        html += `<li>${list[i]}</li>`;
+       total += item.cost;
+    }
+   item = list[i++];
 
-//while(item){
-    //if(item.need){
-      //  html += `<li>${list[i]}</li>`;
-      //  total += item.cost;
-    //}
-   // item = list[i++];
+}
+for(let i=0; i < list.length; i++ ){
+   let item = 
+   html += `<li>${list[i]}</li>`;
+   total += Item.cost;
 
-//}
-//for(let i=0; i < list.length; i++ ){
-   // let item = 
-   // html += `<li>${list[i]}</li>`;
-   // total += Item.cost;
-
-//}
+}
 
 document.getElementById('list').innerHTML = html;
 document.getElementById('cost').innerHTML = `${total}`;
-*/
-/*
+
+
 const goods = {
     mangoes,
     bananas,
@@ -140,8 +139,7 @@ for(let i=0; i < goods.length; i++){
   html += `<li>${goods[i]}</li>`;
 }
 document.getElementById('list').innerHTML = html;
-*/
-/*
+
 const goods = {
   Java: 'Java',
   Javascript: 'Bananas',
@@ -172,10 +170,10 @@ let h='';
   payElement.textContent = h;
  }
  payElement.addEventListener('click',payE);
-*/
+
 
 //Asychronous
-/*
+
 console.log(" i")
 console.log("eat ")
 setTimeout(()=>{
@@ -186,8 +184,8 @@ setTimeout(()=>{
 console.log("with a ")
 console.log(" spoon")
 
-*/
-/*
+
+
 function one (call_two) {
   console.log('step one complete. please call step 2');
   call_two();
@@ -197,9 +195,9 @@ function two () {
 }
 one(two);
 
-*/
 
-/*
+
+
 let order = (call_production) => {
   console.log("order placed, please call production");
   call_production()
@@ -224,7 +222,7 @@ wash(clean)
 
 
 
-/*
+
 let stocks = {
   Fruits: ["strawberry","grapes","banana","apple"],
   liquid: ["water","ice cream"],
@@ -253,8 +251,8 @@ let production = () => {
   
 };
 
- */
-/*
+ 
+
 
 let stocks = {
   Fruits: ["strawberry","grapes","banana","apple"],
