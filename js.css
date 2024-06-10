@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    margin: 0;
+    box-sizing: 0;
+    
+}
+.bg{
+    color: white;
+}
+.navbar{
+    padding: 10px 10px;
+    background-color: white;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+}
+li{
+    margin: 20px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.pay{
+    padding: 18px 35px;
+    background-color: rgb(9, 181, 238);
+    border-radius: 35px;
+    text-decoration: line-through;
+    flex-wrap: wrap;
+    
+}
+h2{
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.h-1{
+    align-items: center;
+    justify-content: center;
+    
+}
+.header{
+    width: 100vh;
+    height: 100vw;
+    background-color: rgb(29, 24, 24);
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.p{
+    color: white;
+    text-align: center;
+}
